@@ -3,7 +3,7 @@ This is a tool made to help filter martial weapons on the poe2 trade website
 
 ------------------------
 
-Version 0.1 ---- This is an early version, and will only work with rare/magic bows for now.
+## Version 0.1 ---- This is an early version, and will only work with rare/magic bows for now.
 
 - Calculates DPS with iron runes (even if it has something equipped);
 - Calculates what is the minimum and maximum possible DPS after using a divine orb;
@@ -14,9 +14,9 @@ Version 0.1 ---- This is an early version, and will only work with rare/magic bo
 
 ------------------------
 
-How to install?
+## How to install?
 
-Option 1 (Chrome only) - unpacked chrome extension:
+### Option 1 (Chrome only) - unpacked chrome extension:
 
 * Download the repository and unpack it;
 * Inside google, go to Manage Extensions;
@@ -27,7 +27,7 @@ Option 1 (Chrome only) - unpacked chrome extension:
 
 
 
-Option 2 (Tested with both chrome and firefox) - Copy and paste script:
+### Option 2 (Tested with both chrome and firefox) - Copy and paste script:
 
 * Copy the all the text from the file [scripst/bowFilter.js](https://github.com/JohnnyDalvi/PathOfMartialWeapons/blob/main/poe2-JDBowFilter/scripts/bowFilter.js);
 * Open the developer tool (F12 on chrome);
