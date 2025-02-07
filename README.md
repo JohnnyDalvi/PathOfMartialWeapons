@@ -18,10 +18,10 @@ How to install?
 
 Option 1 (Chrome only) - unpacked chrome extension:
 
-* Download the folder named "poe2-JDBowFilter" and unpack it;
+* Download the repository and unpack it;
 * Inside google, go to Manage Extensions;
 * Activate Developer Tools (top right of the manage extension screen);
-* Load Unpacked (select the root folder named "poe2-JDBowFilter" that you unzipped);
+* Load Unpacked (select the folder named "poe2-JDBowFilter" that you unzipped);
 
 -> This method will add a button to access this extension inside the extension icon to the right of the search bar, just press it whenever you finished your search for a bow in the trading website and it will evaluate your results;
 
@@ -29,6 +29,6 @@ Option 1 (Chrome only) - unpacked chrome extension:
 
 Option 2 (Tested with both chrome and firefox) - Copy and paste script:
 
-* Copy the all the text from the file scripst/bowFilter.js;
+* Copy the all the text from the file [scripst/bowFilter.js](https://github.com/JohnnyDalvi/PathOfMartialWeapons/blob/main/poe2-JDBowFilter/scripts/bowFilter.js);
 * Open the developer tool (F12 on chrome);
 * Go to Console, paste the code and press enter;
