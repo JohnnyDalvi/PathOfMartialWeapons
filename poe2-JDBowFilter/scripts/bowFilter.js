@@ -286,6 +286,7 @@ async function main()
     console.log("Tool made by Johnny Dalvi --- Test Version 0.1");
     urlData = 'https://gist.githubusercontent.com/JohnnyDalvi/430591fccc79d0451791f954b8f4dc56/raw/6491ab06a3830e7b58b55c7f66e44e6eeaad91b4/affixJson.json';
     data = await getData(urlData);
+    await new Promise(r => setTimeout(r, 2000)); //otherwise bricks itself in slow and fast browsers
     GenerateButtons();
     document.querySelector("#trade > div.top > div > div.controls > div.controls-center > button").addEventListener("click",NewSearch);
     MainProgram();
