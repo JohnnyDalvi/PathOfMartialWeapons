@@ -1,0 +1,11 @@
+{   
+    "name": "POE2 - Bow Filter by Johnny Dalvi",
+    "version": "1.0",
+    "manifest_version" : 3,
+    "description": "Helps to filter out bows from poe2 trading website",
+    "permissions": ["scripting", "activeTab"],
+    "action" : {},
+    "background" : {
+      "service_worker" : "background/index.js"
+    }
+  }

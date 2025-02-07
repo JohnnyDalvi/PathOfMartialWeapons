@@ -1,0 +1,1028 @@
+{
+    "itemBase" : "Bow",
+    "mods" :    
+    [
+    {
+        "affixFamily" : "Added Physical Damage",
+        "affixPosition" : "Prefix",
+        "affixType" : "Added Damage",
+        "affixKeywords" : ["Added","Physical"],
+        "mods" : [
+        
+        {
+            "name" : "Glinting",
+            "tier" : 1,
+            "affixLevelReq" : 2,
+            "values" : ["(1–2)","(4–5)"]
+        },
+        {
+            "name" : "Burnished",
+            "tier" : 2,
+            "affixLevelReq" : 13,
+            "values" : ["(4–6)","(7–11)"]
+        },
+        {
+            "name" : "Polished",
+            "tier" : 3,
+            "affixLevelReq" : 21,
+            "values" : ["(6–9)","(11–16)"]
+        },
+        {
+            "name" : "Honed",
+            "tier" : 4,
+            "affixLevelReq" : 29,
+            "values" : ["(8–12)","(14–21)"]
+        },
+        {
+            "name" : "Gleaming",
+            "tier" : 5,
+            "affixLevelReq" : 36,
+            "values" : ["(10–15)","(18–26)"]
+        },
+        {
+            "name" : "Annealed",
+            "tier" : 6,
+            "affixLevelReq" : 46,
+            "values" : ["(13–20)","(23–35)"]
+        },
+        {
+            "name" : "Razor-sharp",
+            "tier" : 7,
+            "affixLevelReq" : 54,
+            "values" : ["(16–24)","(28–42)"]
+        },
+        {
+            "name" : "Tempered",
+            "tier" : 8,
+            "affixLevelReq" : 65,
+            "values" : ["(21–31)","(36–53)"]
+        },
+        {
+            "name" : "Flaring",
+            "tier" : 9,
+            "affixLevelReq" : 77,
+            "values" : ["(26–39)","(44–66)"]
+        }]
+    },
+    {
+        "affixFamily" : "Added Fire Damage",
+        "affixPosition" : "Prefix",
+        "affixType" : "Added Damage",
+        "affixKeywords" : ["Added","Fire"],
+        "mods" : [
+        
+        {
+            "name" : "Heated",
+            "tier" : 1,
+            "affixLevelReq" : 1,
+            "values" : ["(2–3)","(4–5)"]
+        },
+        {
+            "name" : "Smouldering",
+            "tier" : 2,
+            "affixLevelReq" : 11,
+            "values" : ["(4–7)","(8–11)"]
+        },
+        {
+            "name" : "Smoking",
+            "tier" : 3,
+            "affixLevelReq" : 18,
+            "values" : ["(7–11)","(12–18)"]
+        },
+        {
+            "name" : "Burning",
+            "tier" : 4,
+            "affixLevelReq" : 26,
+            "values" : ["(11–17)","(18–26)"]
+        },
+        {
+            "name" : "Flaming",
+            "tier" : 5,
+            "affixLevelReq" : 33,
+            "values" : ["(14–21)","(22–33)"]
+        },
+        {
+            "name" : "Scorching",
+            "tier" : 6,
+            "affixLevelReq" : 42,
+            "values" : ["(20–30)","(31–46)"]
+        },
+        {
+            "name" : "Incinerating",
+            "tier" : 7,
+            "affixLevelReq" : 51,
+            "values" : ["(26–39)","(40–59)"]
+        },
+        {
+            "name" : "Blasting",
+            "tier" : 8,
+            "affixLevelReq" : 62,
+            "values" : ["(35–52)","(53–79)"]
+        },
+        {
+            "name" : "Cremating",
+            "tier" : 9,
+            "affixLevelReq" : 74,
+            "values" : ["(45–67)","(68–102)"]
+        },
+        {
+            "name" : "Carbonising",
+            "tier" : 10,
+            "affixLevelReq" : 81,
+            "values" : ["(52–78)","(79–119)"]
+        }
+        ]
+    },
+    {
+        "affixFamily" : "Added Cold Damage",
+        "affixPosition" : "Prefix",
+        "affixType" : "Added Damage",
+        "affixKeywords" : ["Added","Cold"],
+        "mods" : [
+        
+        {
+            "name" : "Frosted",
+            "tier" : 1,
+            "affixLevelReq" : 1,
+            "values" : ["(1–2)","(3–5)"]
+        },
+        {
+            "name" : "Chilled",
+            "tier" : 2,
+            "affixLevelReq" : 12,
+            "values" : ["(4–6)","(7–10)"]
+        },
+        {
+            "name" : "Icy",
+            "tier" : 3,
+            "affixLevelReq" : 19,
+            "values" : ["(6–9)","(10–15)"]
+        },
+        {
+            "name" : "Frigid",
+            "tier" : 4,
+            "affixLevelReq" : 27,
+            "values" : ["(9–14)","(15–22)"]
+        },
+        {
+            "name" : "Freezing",
+            "tier" : 5,
+            "affixLevelReq" : 34,
+            "values" : ["(12–18)","(19–28)"]
+        },
+        {
+            "name" : "Frozen",
+            "tier" : 6,
+            "affixLevelReq" : 43,
+            "values" : ["(16–25)","(26–38)"]
+        },
+        {
+            "name" : "Glaciated",
+            "tier" : 7,
+            "affixLevelReq" : 52,
+            "values" : ["(21–32)","(33–49)"]
+        },
+        {
+            "name" : "Polar",
+            "tier" : 8,
+            "affixLevelReq" : 63,
+            "values" : ["(28–43)","(44–65)"]
+        },
+        {
+            "name" : "Entombing",
+            "tier" : 9,
+            "affixLevelReq" : 75,
+            "values" : ["(37–55)","(56–84)"]
+        },
+        {
+            "name" : "Crystalising",
+            "tier" : 10,
+            "affixLevelReq" : 81,
+            "values" : ["(42–63)","(64–95)"]
+        }
+        ]
+    },
+    {
+        "affixFamily" : "Added Lightning Damage",
+        "affixPosition" : "Prefix",
+        "affixType" : "Added Damage",
+        "affixKeywords" : ["Added","Lightning"],
+        "mods" : [
+        
+        {
+            "name" : "Humming",
+            "tier" : 1,
+            "affixLevelReq" : 1,
+            "values" : ["1","(7–10)"]
+        },
+        {
+            "name" : "Buzzing",
+            "tier" : 2,
+            "affixLevelReq" : 13,
+            "values" : ["1","(14–20)"]
+        },
+        {
+            "name" : "Snapping",
+            "tier" : 3,
+            "affixLevelReq" : 19,
+            "values" : ["1","(19–29)"]
+        },
+        {
+            "name" : "Crackling",
+            "tier" : 4,
+            "affixLevelReq" : 31,
+            "values" : ["(1–3)","(33–49)"]
+        },
+        {
+            "name" : "Sparking",
+            "tier" : 5,
+            "affixLevelReq" : 34,
+            "values" : ["(1–3)","(37–55)"]
+        },
+        {
+            "name" : "Arcing",
+            "tier" : 6,
+            "affixLevelReq" : 42,
+            "values" : ["(1–4)","(49–73)"]
+        },
+        {
+            "name" : "Shocking",
+            "tier" : 7,
+            "affixLevelReq" : 51,
+            "values" : ["(1–5)","(62–93)"]
+        },
+        {
+            "name" : "Discharging",
+            "tier" : 8,
+            "affixLevelReq" : 63,
+            "values" : ["(1–7)","(86–128)"]
+        },
+        {
+            "name" : "Electrocuting",
+            "tier" : 9,
+            "affixLevelReq" : 74,
+            "values" : ["(1–8)","(108–162)"]
+        },
+        {
+            "name" : "Vapourising",
+            "tier" : 10,
+            "affixLevelReq" : 81,
+            "values" : ["(1–10)","(125–188)"]
+        }
+        ]
+    },    
+    {
+        "affixFamily" : "Increased Physical Damage",
+        "affixPosition" : "Prefix",
+        "affixType" : "Increased Damage",
+        "affixKeywords" : ["Increased","Physical Damage"],
+        "mods" : [
+        
+        {
+            "name" : "Heavy",
+            "tier" : 1,
+            "affixLevelReq" : 1,
+            "values" : ["(40–49)"]
+        },
+        {
+            "name" : "Serrated",
+            "tier" : 2,
+            "affixLevelReq" : 11,
+            "values" : ["(50–64)"]
+        },
+        {
+            "name" : "Wicked",
+            "tier" : 3,
+            "affixLevelReq" : 23,
+            "values" : ["(65–84)"]
+        },
+        {
+            "name" : "Vicious",
+            "tier" : 4,
+            "affixLevelReq" : 35,
+            "values" : ["(85–109)"]
+        },
+        {
+            "name" : "Bloodthirsty",
+            "tier" : 5,
+            "affixLevelReq" : 46,
+            "values" : ["(110–134)"]
+        },
+        {
+            "name" : "Cruel",
+            "tier" : 6,
+            "affixLevelReq" : 60,
+            "values" : ["(135–154)"]
+        },
+        {
+            "name" : "Tyrannical",
+            "tier" : 7,
+            "affixLevelReq" : 73,
+            "values" : ["(155–169)"]
+        },
+        {
+            "name" : "Merciless",
+            "tier" : 8,
+            "affixLevelReq" : 82,
+            "values" : ["(170–179)"]
+        }
+        ]
+    },
+    {
+        "affixFamily" : "Increased Physical and Accuracy",
+        "affixPosition" : "Prefix",
+        "affixType" : "Increased Damage",
+        "affixKeywords" : ["Increased","Physical Damage","Accuracy Rating"],
+        "mods" : [
+        
+        {
+            "name" : "Squire's",
+            "tier" : 1,
+            "affixLevelReq" : 1,
+            "values" : ["(15–19)","+(16–20)"]
+        },
+        {
+            "name" : "Journeyman's",
+            "tier" : 2,
+            "affixLevelReq" : 11,
+            "values" : ["(20–24)","+(21–46)"]
+        },
+        {
+            "name" : "Reaver's",
+            "tier" : 3,
+            "affixLevelReq" : 23,
+            "values" : ["(25–34)","+(47–72)"]
+        },
+        {
+            "name" : "Mercenary's",
+            "tier" : 4,
+            "affixLevelReq" : 38,
+            "values" : ["(35–44)","+(73–97)"]
+        },
+        {
+            "name" : "Champion's",
+            "tier" : 5,
+            "affixLevelReq" : 53,
+            "values" : ["(45–54)","+(98–123)"]
+        },
+        {
+            "name" : "Conqueror's",
+            "tier" : 6,
+            "affixLevelReq" : 65,
+            "values" : ["(55–64)","+(124–149)"]
+        },
+        {
+            "name" : "Emperor's",
+            "tier" : 7,
+            "affixLevelReq" : 76,
+            "values" : ["(65–74)","+(150–174)"]
+        },
+        {
+            "name" : "Dictator's",
+            "tier" : 8,
+            "affixLevelReq" : 81,
+            "values" : ["(75–79)","+(175–200)"]
+        }
+        ]
+    },    
+    {
+        "affixFamily" : "To Accuracy",
+        "affixPosition" : "Prefix",
+        "affixType" : "MISC",
+        "affixKeywords" : ["Accuracy Rating"],
+        "mods" : [
+        
+        {
+            "name" : "Precise",
+            "tier" : 1,
+            "affixLevelReq" : 1,
+            "values" : ["+(11–32)"]
+        },
+        {
+            "name" : "Reliable",
+            "tier" : 2,
+            "affixLevelReq" : 12,
+            "values" : ["+(33–60)"]
+        },
+        {
+            "name" : "Focused",
+            "tier" : 3,
+            "affixLevelReq" : 20,
+            "values" : ["+(61–84)"]
+        },
+        {
+            "name" : "Deliberate",
+            "tier" : 4,
+            "affixLevelReq" : 26,
+            "values" : ["+(85–123)"]
+        },
+        {
+            "name" : "Consistent",
+            "tier" : 5,
+            "affixLevelReq" : 33,
+            "values" : ["+(124–167)"]
+        },
+        {
+            "name" : "Steady",
+            "tier" : 6,
+            "affixLevelReq" : 41,
+            "values" : ["+(168–236)"]
+        },
+        {
+            "name" : "Hunter's",
+            "tier" : 7,
+            "affixLevelReq" : 50,
+            "values" : ["+(237–346)"]
+        },
+        {
+            "name" : "Ranger's",
+            "tier" : 8,
+            "affixLevelReq" : 63,
+            "values" : ["+(347–450)"]
+        },
+        {
+            "name" : "Amazon's",
+            "tier" : 9,
+            "affixLevelReq" : 76,
+            "values" : ["+(451–550)"]
+        },
+        {
+            "name" : "Valkyrie's",
+            "tier" : 10,
+            "affixLevelReq" : 82,
+            "values" : ["+(551–650)"]
+        }
+        ]
+    },
+    {
+        "affixFamily" : "Elemental Damage",
+        "affixPosition" : "Prefix",
+        "affixType" : "Valuable",
+        "affixKeywords" : ["Elemental Damage"],
+        "mods" : [
+        
+        {
+            "name" : "Catalysing",
+            "tier" : 1,
+            "affixLevelReq" : 4,
+            "values" : ["(19–34)"]
+        },
+        {
+            "name" : "Infusing",
+            "tier" : 2,
+            "affixLevelReq" : 15,
+            "values" : ["(36–51)"]
+        },
+        {
+            "name" : "Empowering",
+            "tier" : 3,
+            "affixLevelReq" : 30,
+            "values" : ["(53–61)"]
+        },
+        {
+            "name" : "Unleashed",
+            "tier" : 4,
+            "affixLevelReq" : 45,
+            "values" : ["(63–71)"]
+        },
+        {
+            "name" : "Overpowering",
+            "tier" : 5,
+            "affixLevelReq" : 60,
+            "values" : ["(73–85)"]
+        },
+        {
+            "name" : "Devastating",
+            "tier" : 6,
+            "affixLevelReq" : 81,
+            "values" : ["(87–100)"]
+        }
+        ]
+    },
+    {
+        "affixFamily" : "Dexterity",
+        "affixPosition" : "Suffix",
+        "affixType" : "Valuable",
+        "affixKeywords" : ["Dexterity"],
+        "mods" : [
+        
+        {
+            "name" : "of the Mongoose",
+            "tier" : 1,
+            "affixLevelReq" : 1,
+            "values" : ["+(5–8)"]
+        },
+        {
+            "name" : "of the Lynx",
+            "tier" : 2,
+            "affixLevelReq" : 11,
+            "values" : ["+(9–12)"]
+        },
+        {
+            "name" : "of the Fox",
+            "tier" : 3,
+            "affixLevelReq" : 22,
+            "values" : ["+(13–16)"]
+        },
+        {
+            "name" : "of the Falcon",
+            "tier" : 4,
+            "affixLevelReq" : 33,
+            "values" : ["+(17–20)"]
+        },
+        {
+            "name" : "of the Panther",
+            "tier" : 5,
+            "affixLevelReq" : 44,
+            "values" : ["+(21–24)"]
+        },
+        {
+            "name" : "of the Leopard",
+            "tier" : 6,
+            "affixLevelReq" : 55,
+            "values" : ["+(25–27)"]
+        },
+        {
+            "name" : "of the Jaguar",
+            "tier" : 7,
+            "affixLevelReq" : 66,
+            "values" : ["+(28–30)"]
+        },
+        {
+            "name" : "of the Phantom",
+            "tier" : 8,
+            "affixLevelReq" : 74,
+            "values" : ["+(31–33)"]
+        }
+        ]
+    },
+    {
+        "affixFamily" : "Attribute Requeriments",
+        "affixPosition" : "Suffix",
+        "affixType" : "MISC",
+        "affixKeywords" : ["Requeriments"],
+        "mods" : [
+        
+        {
+            "name" : "of the Worthy",
+            "tier" : 1,
+            "affixLevelReq" : 24,
+            "values" : ["15"]
+        },
+        {
+            "name" : "of the Apt",
+            "tier" : 2,
+            "affixLevelReq" : 32,
+            "values" : ["20"]
+        },
+        {
+            "name" : "of the Talented",
+            "tier" : 3,
+            "affixLevelReq" : 40,
+            "values" : ["25"]
+        },
+        {
+            "name" : "of the Skilled",
+            "tier" : 4,
+            "affixLevelReq" : 52,
+            "values" : ["30"]
+        },
+        {
+            "name" : "of the Proficient",
+            "tier" : 5,
+            "affixLevelReq" : 60,
+            "values" : ["35"]
+        }
+        ]
+    },
+    {
+        "affixFamily" : "Projectile Skills",
+        "affixPosition" : "Suffix",
+        "affixType" : "Valuable",
+        "affixKeywords" : ["Projectile Skill"],
+        "mods" : [
+        
+        {
+            "name" : "of the Archer",
+            "tier" : 1,
+            "affixLevelReq" : 2,
+            "values" : ["+1"]
+        },
+        {
+            "name" : "of the Fletcher",
+            "tier" : 2,
+            "affixLevelReq" : 18,
+            "values" : ["+2"]
+        },
+        {
+            "name" : "of the Sharpshooter",
+            "tier" : 3,
+            "affixLevelReq" : 36,
+            "values" : ["+3"]
+        },
+        {
+            "name" : "of the Marksman",
+            "tier" : 4,
+            "affixLevelReq" : 55,
+            "values" : ["+4"]
+        },
+        {
+            "name" : "of the Sniper",
+            "tier" : 5,
+            "affixLevelReq" : 81,
+            "values" : ["+5"]
+        }
+        ]
+    },
+    {
+        "affixFamily" : "Life Leech",
+        "affixPosition" : "Suffix",
+        "affixType" : "MISC",
+        "affixKeywords" : ["Leech","Life"],
+        "mods" : [
+        
+        {
+            "name" : "of the Parasite",
+            "tier" : 1,
+            "affixLevelReq" : 21,
+            "values" : ["(5–5.9)"]
+        },
+        {
+            "name" : "of the Locust",
+            "tier" : 2,
+            "affixLevelReq" : 38,
+            "values" : ["(6–6.9)"]
+        },
+        {
+            "name" : "of the Remora",
+            "tier" : 3,
+            "affixLevelReq" : 54,
+            "values" : ["(7–7.9)"]
+        },
+        {
+            "name" : "of the Lamprey",
+            "tier" : 4,
+            "affixLevelReq" : 68,
+            "values" : ["(8–8.9)"]
+        }
+        ]
+    },
+    {
+        "affixFamily" : "Mana Leech",
+        "affixPosition" : "Suffix",
+        "affixType" : "MISC",
+        "affixKeywords" : ["Leech","Mana"],
+        "mods" : [
+        
+        {
+            "name" : "of the Thirsty",
+            "tier" : 1,
+            "affixLevelReq" : 21,
+            "values" : ["(4–4.9)"]
+        },
+        {
+            "name" : "of the Parched",
+            "tier" : 2,
+            "affixLevelReq" : 38,
+            "values" : ["(5–5.9)"]
+        },
+        {
+            "name" : "of the Arid",
+            "tier" : 3,
+            "affixLevelReq" : 54,
+            "values" : ["(6–6.9)"]
+        },
+        {
+            "name" : "of the Drought",
+            "tier" : 4,
+            "affixLevelReq" : 68,
+            "values" : ["(7–7.9)"]
+        }
+        ]
+    },
+    {
+        "affixFamily" : "Life on Kill",
+        "affixPosition" : "Suffix",
+        "affixType" : "MISC",
+        "affixKeywords" : ["Killed","Life"],
+        "mods" : [
+        
+        {
+            "name" : "of Success",
+            "tier" : 1,
+            "affixLevelReq" : 1,
+            "values" : ["(4–6)"]
+        },
+        {
+            "name" : "of Victory",
+            "tier" : 2,
+            "affixLevelReq" : 11,
+            "values" : ["(7–9)"]
+        },
+        {
+            "name" : "of Triumph",
+            "tier" : 3,
+            "affixLevelReq" : 22,
+            "values" : ["(10–18)"]
+        },
+        {
+            "name" : "of Conquest",
+            "tier" : 4,
+            "affixLevelReq" : 33,
+            "values" : ["(19–28)"]
+        },
+        {
+            "name" : "of Vanquishing",
+            "tier" : 5,
+            "affixLevelReq" : 44,
+            "values" : ["(29–40)"]
+        },
+        {
+            "name" : "of Valour",
+            "tier" : 6,
+            "affixLevelReq" : 55,
+            "values" : ["(41–53)"]
+        },
+        {
+            "name" : "of Glory",
+            "tier" : 7,
+            "affixLevelReq" : 66,
+            "values" : ["(54–68)"]
+        },
+        {
+            "name" : "of Legend",
+            "tier" : 8,
+            "affixLevelReq" : 77,
+            "values" : ["(69–84)"]
+        }
+        ]
+    },
+    {
+        "affixFamily" : "Mana on Kill",
+        "affixPosition" : "Suffix",
+        "affixType" : "Valuable",
+        "affixKeywords" : ["Killed","Life"],
+        "mods" : [
+        
+        {
+            "name" : "of Absorption",
+            "tier" : 1,
+            "affixLevelReq" : 1,
+            "values" : ["(2–3)"]
+        },
+        {
+            "name" : "of Osmosis",
+            "tier" : 2,
+            "affixLevelReq" : 12,
+            "values" : ["(4–5)"]
+        },
+        {
+            "name" : "of Infusion",
+            "tier" : 3,
+            "affixLevelReq" : 23,
+            "values" : ["(6–9)"]
+        },
+        {
+            "name" : "of Enveloping",
+            "tier" : 4,
+            "affixLevelReq" : 34,
+            "values" : ["(10–14)"]
+        },
+        {
+            "name" : "of Consumption",
+            "tier" : 5,
+            "affixLevelReq" : 45,
+            "values" : ["(15–20)"]
+        },
+        {
+            "name" : "of Siphoning",
+            "tier" : 6,
+            "affixLevelReq" : 56,
+            "values" : ["(21–27)"]
+        },
+        {
+            "name" : "of Devouring",
+            "tier" : 7,
+            "affixLevelReq" : 67,
+            "values" : ["(28–35)"]
+        },
+        {
+            "name" : "of Assimilation",
+            "tier" : 8,
+            "affixLevelReq" : 78,
+            "values" : ["(36–45)"]
+        }
+        ]
+    },
+    {
+        "affixFamily" : "Life on Hit",
+        "affixPosition" : "Suffix",
+        "affixType" : "Valuable",
+        "affixKeywords" : ["Hit","Life"],
+        "mods" : [
+        
+        {
+            "name" : "of Rejuvenation",
+            "tier" : 1,
+            "affixLevelReq" : 8,
+            "values" : ["2"]
+        },
+        {
+            "name" : "of Restoration",
+            "tier" : 2,
+            "affixLevelReq" : 20,
+            "values" : ["3"]
+        },
+        {
+            "name" : "of Regrowth",
+            "tier" : 3,
+            "affixLevelReq" : 30,
+            "values" : ["4"]
+        },
+        {
+            "name" : "of Nourishment",
+            "tier" : 4,
+            "affixLevelReq" : 40,
+            "values" : ["5"]
+        }
+        ]
+    },
+    {
+        "affixFamily" : "Attack Speed",
+        "affixPosition" : "Suffix",
+        "affixType" : "Increased Damage",
+        "affixKeywords" : ["Attack Speed"],
+        "mods" : [
+        
+        {
+            "name" : "of Skill",
+            "tier" : 1,
+            "affixLevelReq" : 1,
+            "values" : ["(5–7)"]
+        },
+        {
+            "name" : "of Ease",
+            "tier" : 2,
+            "affixLevelReq" : 11,
+            "values" : ["(8–10)"]
+        },
+        {
+            "name" : "of Mastery",
+            "tier" : 3,
+            "affixLevelReq" : 22,
+            "values" : ["(11–13)"]
+        },
+        {
+            "name" : "of Renown",
+            "tier" : 4,
+            "affixLevelReq" : 30,
+            "values" : ["(14–16)"]
+        },
+        {
+            "name" : "of Acclaim",
+            "tier" : 5,
+            "affixLevelReq" : 37,
+            "values" : ["(17–19)"]
+        }
+        ]
+    },
+    {
+        "affixFamily" : "Critical Chance",
+        "affixPosition" : "Suffix",
+        "affixType" : "Valuable",
+        "affixKeywords" : ["Crtical","Chance"],
+        "mods" : [
+        
+        {
+            "name" : "of Menace",
+            "tier" : 1,
+            "affixLevelReq" : 1,
+            "values" : ["+(1.01–1.5)"]
+        },
+        {
+            "name" : "of Havoc",
+            "tier" : 2,
+            "affixLevelReq" : 20,
+            "values" : ["+(1.51–2.1)"]
+        },
+        {
+            "name" : "of Disaster",
+            "tier" : 3,
+            "affixLevelReq" : 30,
+            "values" : ["+(2.11–2.7)"]
+        },
+        {
+            "name" : "of Calamity",
+            "tier" : 4,
+            "affixLevelReq" : 44,
+            "values" : ["+(3.11–3.8)"]
+        },
+        {
+            "name" : "of Ruin",
+            "tier" : 5,
+            "affixLevelReq" : 59,
+            "values" : ["+(3.81–4.4)"]
+        },
+        {
+            "name" : "of Unmaking",
+            "tier" : 6,
+            "affixLevelReq" : 73,
+            "values" : ["+(4.41–5)"]
+        }
+        ]
+    },
+    {
+        "affixFamily" : "Critical Damage",
+        "affixPosition" : "Suffix",
+        "affixType" : "Valuable",
+        "affixKeywords" : ["Crtical","Damage Bonus"],
+        "mods" : [
+        
+        {
+            "name" : "of Ire",
+            "tier" : 1,
+            "affixLevelReq" : 8,
+            "values" : ["+(10–14)"]
+        },
+        {
+            "name" : "of Anger",
+            "tier" : 2,
+            "affixLevelReq" : 21,
+            "values" : ["+(15–19)"]
+        },
+        {
+            "name" : "of Rage",
+            "tier" : 3,
+            "affixLevelReq" : 30,
+            "values" : ["+(20–24)"]
+        },
+        {
+            "name" : "of Fury",
+            "tier" : 4,
+            "affixLevelReq" : 44,
+            "values" : ["+(25–29)"]
+        },
+        {
+            "name" : "of Ferocity",
+            "tier" : 5,
+            "affixLevelReq" : 59,
+            "values" : ["+(30–34)"]
+        },
+        {
+            "name" : "of Destruction",
+            "tier" : 6,
+            "affixLevelReq" : 73,
+            "values" : ["+(35–39)"]
+        }
+        ]
+    },
+    {
+        "affixFamily" : "Accuracy and Light Radius",
+        "affixPosition" : "Suffix",
+        "affixType" : "MISC",
+        "affixKeywords" : ["Accuracy","Light Radius"],
+        "mods" : [
+        
+        {
+            "name" : "of Shining",
+            "tier" : 1,
+            "affixLevelReq" : 8,
+            "values" : ["+(10–20)","5"]
+        },
+        {
+            "name" : "of Light",
+            "tier" : 2,
+            "affixLevelReq" : 15,
+            "values" : ["+(21–40)","10"]
+        },
+        {
+            "name" : "of Radiance",
+            "tier" : 3,
+            "affixLevelReq" : 30,
+            "values" : ["+(41–60)","15"]
+        }
+        ]
+    },
+    {
+        "affixFamily" : "Additional Arrows",
+        "affixPosition" : "Suffix",
+        "affixType" : "Valuable",
+        "affixKeywords" : ["Additional Arrow"],
+        "mods" : [
+        
+        {
+            "name" : "of Splintering",
+            "tier" : 1,
+            "affixLevelReq" : 55,
+            "values" : []
+        },
+        {
+            "name" : "of Many",
+            "tier" : 2,
+            "affixLevelReq" : 82,
+            "values" : ["2"]
+        }
+        ]
+    }
+    ]
+}
